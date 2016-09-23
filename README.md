@@ -1,6 +1,6 @@
 # python-haikubot
 
-a python 3 slack haiku detetor for nate
+a python 3 slack haiku detector for nate
 
 basic bot logic almost entirely from starterbot: https://www.fullstackpython.com/blog/build-first-slack-bot-python.html
 
