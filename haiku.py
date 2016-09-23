@@ -9,7 +9,6 @@ slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 with open('syllables.json') as fh:
     SYLLABLES = json.load(fh)
 
-
 def handle_command(potential, channel):
     """
         parse the potential haiku
