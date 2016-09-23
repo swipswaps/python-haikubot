@@ -10,9 +10,9 @@ toby's bot is more advanced, but this is less work to get running
 
 # howto
 
-1) Set BOT_ID and SLACK_BOT_TOKEN as environent variables.  The page for starterbot has good instructions if you dont know how
-
-2) run the bot
-
-3) the bot will watch channels it has access to.  if it finds a haiku, it will let the channel know
+1. install/set up python3.  I recommend using a virtualenv but you don't have to
+2. install the requirements: pip install -r requirements.txt
+3. Set BOT_ID and SLACK_BOT_TOKEN as environent variables.  The page for starterbot has good instructions if you dont know how
+4. run the bot
+5. the bot will watch channels it has access to.  if it finds a haiku, it will let the channel know
 
