@@ -64,8 +64,7 @@ def parse_slack_output(slack_rtm_output):
                 print('channel {0}, potential {1}'.format(
                     channel, potential))
                 return potential, channel
-                #if potential and channel:
-                #    return potential.split().strip(), channel
+
     return None, None
 
 
